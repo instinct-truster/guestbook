@@ -10,5 +10,5 @@ const GuestBook = defineTable({
 });
 
 export default defineDb({
-  tables: {},
+  tables: { GuestBook },
 });
